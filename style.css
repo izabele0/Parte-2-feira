@@ -36,7 +36,8 @@ h2 {
 }
 
 h1 {
-    text-align: center;
+    text-align: justify;
+    margin-left: 40px;
 }
 
 p {
