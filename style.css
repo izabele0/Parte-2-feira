@@ -1,5 +1,5 @@
 body {
-    background-color: #209b72;
+    background-color: #137dd4;
     font-family: Arial, sans-serif;
     margin: 1px;
     padding-bottom: 50px;
@@ -13,7 +13,7 @@ header {
     padding: 10px 25px;
     text-align: center;
 body {
-    background-color: #209b72;
+    background-color: #0f2483;
     font-family: Arial, sans-serif;
     margin: 1px;
     padding-bottom: 50px;
@@ -22,7 +22,7 @@ body {
 }
 
 header {
-    border-bottom: 3px solid #236a4e;
+    border-bottom: 3px solid #000000;
     background-color: white;
     padding: 10px 25px;
     text-align: center;
