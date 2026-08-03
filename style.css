@@ -1,6 +1,6 @@
 
 body {
-    background-color: #2ac4eb;
+    background-color: #1f92d4;
     font-family: Arial, sans-serif;
     margin: 1px;
     padding-bottom: 50px;
@@ -10,7 +10,7 @@ body {
 
 header {
     border-bottom: 3px solid #39c7f1;
-    background-color: white;
+    background-color: rgb(32, 165, 218);
     padding: 10px 25px;
     text-align: center;
 
