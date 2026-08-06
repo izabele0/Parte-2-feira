@@ -1,6 +1,6 @@
 
 body {
-    background-color: #1f92d4;
+    background-color: #609ec0;
     font-family: Arial, sans-serif;
     margin: 1px;
     padding-bottom: 50px;
@@ -9,10 +9,11 @@ body {
 }
 
 header {
-    border-bottom: 3px solid #39c7f1;
-    background-color: rgb(32, 165, 218);
+    border-bottom: 3px solid #177591;
+    background-color: rgb(19 151 205);
     padding: 10px 25px;
     text-align: center;
+    color: white;
 
 }
 
@@ -31,6 +32,7 @@ h1 {
 p {
     text-align: justify;
     padding: 10px;
+    font: size 20px; px;
 }
 
 .texto {
@@ -38,7 +40,6 @@ p {
     border: 1px solid #ccc;
     padding: 20px;
     margin-top: 20px;
-    border: 5px solid #10afd6;
   margin-bottom: 40px;
   margin-left: 40px;
   margin-right: 40px;
