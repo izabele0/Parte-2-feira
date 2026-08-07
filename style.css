@@ -1,87 +1,106 @@
 
 body {
-    background-color: #609ec0;
-    font-family: Arial, sans-serif;
-    margin: 1px;
-    padding-bottom: 50px;
-    display: flex;
-    flex-direction: column;
+   background-color: #609ec0;
+    font-family: "Montserrat", sans-serif;
+   margin: 0;
+   padding-bottom: 50px;
+   display: flex;
+   flex-direction: column;
 }
 
+
+/* Cabeçalho */
 header {
-    border-bottom: 3px solid #177591;
-    background-color: rgb(19 151 205);
-    padding: 10px 25px;
-    text-align: center;
-    color: white;
-
+   border-bottom: 3px solid #177591;
+   background-color: rgb(19 151 205);
+   padding: 10px 25px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
 }
 
 
-
-h2 {
-    margin-left: 42px;
-    color: white;
+/* Logo */
+header img {
+   height: 100px;
+   width: auto;
+   margin-left: 2%;
 }
 
-h1 {
-    text-align: justify;
-    margin-left: 40px;
-}
 
-p {
-    text-align: justify;
-    padding: 10px;
-    font: size 20px; px;
-}
-
+/* Conteúdo */
 .texto {
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin-top: 20px;
-  margin-bottom: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
+   background-color: white;
+   padding: 20px;
+   margin: 20px 40px 40px 40px;
 }
 
-img {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+
+/* Títulos */
+h2 {
+   font-size: 30px;
+   margin-left: 10px;
+   color: rgb(7, 6, 6);
 }
 
+
+h3 {
+   color: rgb(26, 25, 25);
+   margin-left: 10px;
+   margin-right: 40px;
+   font-size: 26px;
+   margin-top: 20px;
+}
+
+
+/* Parágrafos */
+p {
+   text-align: justify;
+   padding: 2px;
+   font-size: 22px;
+   margin-bottom: 50px;
+}
+
+
+/* Lista */
+ul {
+   font-size: 22px;
+   text-align: justify;
+   margin-left: 35px;
+   margin-right: 40px;
+   line-height: 1.6;
+}
+
+
+li {
+   margin-bottom: 8px;
+}
+
+
+/* Imagens do conteúdo */
+.texto img {
+   display: block;
+   margin: 20px auto;
+   max-width: 60%;
+   height: auto;
+}
+
+
+/* Links */
 a {
-    color: rgb(42, 200, 221);
-    text-decoration: none;
-    font-weight: 700;
+   color: rgb(42, 200, 221);
+   text-decoration: none;
+   font-weight: 700;
 }
+
 
 a:hover {
-    color: red;
+   color: red;
 }
+
+
+/* Centralizar links */
 .container-link {
-    text-align: center;
-    margin-bottom: 20px;
+   text-align: center;
+   margin-bottom: 20px;
 }
-
-
-
-
-h2 {
-    margin-left: 42px;
-    color: rgb(7, 6, 6);
-}
-
-h1 {
-    text-align: center justify;
-}
-
-p {
-    text-align: justify;
-    padding: 10px;
-}
-
-
